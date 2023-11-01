@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Pavan kalyan bakkani'
-                echo 'Bridgewater, Newjersey'
+                echo 'Bridgewer, Newjersey'
             }
         }
         stage('Descr') {
