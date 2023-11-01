@@ -9,13 +9,13 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Pavan kalyan bakkani'
-                echo 'Bridgewer, Newjersey'
+                echo 'Bridger, Newjersey'
             }
         }
         stage('Descr') {
             steps {
                 echo 'Hyuderabad'
-                echo 'Suncityy'
+                echo 'Suncity'
             }
         }
     }
