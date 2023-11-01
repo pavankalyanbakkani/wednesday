@@ -10,6 +10,7 @@ pipeline {
             steps {
                 echo 'Pavan kalyan bakkani'
                 echo 'Bridger, Ney'
+                sh 'exit 1'
             }
         }
         stage('Descr') {
@@ -37,5 +38,7 @@ pipeline {
                 }
             }
         }
+        failure{
+            echo 'build has failed'
     }
 }
