@@ -25,7 +25,7 @@ pipeline {
             script {
                 withCredentials([string(credentialsId: 'sleuth', variable: 'SLEUTH_API_KEY')]) {
                     def response = httpRequest(
-                        url: 'https://app.sleuth.io/api/1/deployments/testtoken/wednesday-4/register_deploy',
+                        url: 'https://app.sleuth.io/api/1/deployments/testtoken/wednesday-5/register_deploy',
                         httpMode: 'POST',
                         contentType: 'APPLICATION_JSON',
                         headers: [[$class: 'StringParameterValue', name: 'Authorization', value: "Bearer ${SLEUTH_API_KEY}"]],
